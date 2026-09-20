@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Judul pada tab browser -->
+    <title>Portfolio - Rahmat Febriansyah</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="Foto/Foto12.jpeg" href="Foto/Foto12.jpeg">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">My Portfolio</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Profil</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- FOTO PROFIL / BANNER -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <!--
+                Atribut img:
+                src
+                width
+                height
+                alt
+                title
+            -->
+            <img
+                src="Foto/Foto12.jpeg"
+                width="150"
+                height="150"
+                alt="Foto profil mahasiswa"
+                title="Foto Profil Saya"
+            >
+
+            <h1>Rahmat Febriansyah</h1>
+
+            <p>
+                Mahasiswa | Web Development | Teknik Informatika
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROFIL -->
+    <section class="about" id="about">
+
+        <div class="section-title">
+            <h2>Tentang Saya</h2>
+            <p>Informasi singkat mengenai diri saya</p>
+        </div>
+
+        <div class="about-content">
+
+            <p>
+                Halo, perkenalkan nama saya <b>Rahmat Febriansyah</b>.
+                Saya merupakan mahasiswa yang memiliki ketertarikan
+                terhadap teknologi, desain, multimedia, dan pengembangan
+                website. Halaman ini dibuat sebagai tugas mata kuliah
+                Multimedia Personal Landing Page menggunakan HTML.
+            </p>
+
+            <div class="biodata">
+
+                <div class="biodata-box">
+                    <strong>Nama</strong>
+                    Rahmat Febriansyah
+                </div>
+
+                <div class="biodata-box">
+                    <strong>NIM</strong>
+                    241011402301
+                </div>
+
+                <div class="biodata-box">
+                    <strong>Kelas</strong>
+                    05TPLM002
+                </div>
+
+                <div class="biodata-box">
+                    <strong>Program Studi</strong>
+                    Teknik Informatika
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section id="gallery">
+
+        <div class="section-title">
+            <h2>My Gallery</h2>
+            <p>Kumpulan foto dan aktivitas saya</p>
+        </div>
+
+        <div class="gallery">
+
+            <!-- GAMBAR 1 -->
+            <div class="gallery-item">
+
+                <img
+                    src="Foto/galeri1.jpeg"
+                    width="400"
+                    height="250"
+                    alt="Foto galeri pertama"
+                    title="Gallery Foto 1"
+                >
+
+                <h3>Chapter 01</h3>
+
+                <p>
+                    A simple moment worth remembering.
+                </p>
+
+            </div>
+
+
+            <!-- GAMBAR 2 -->
+            <div class="gallery-item">
+
+                <img
+                    src="Foto/galeri2.jpeg"
+                    width="400"
+                    height="250"
+                    alt="Foto galeri kedua"
+                    title="Gallery Foto 2"
+                >
+
+                <h3>Chapter 02</h3>
+
+                <p>
+                    Small steps, big dreams.
+                </p>
+
+            </div>
+
+
+            <!-- GAMBAR 3 -->
+            <div class="gallery-item">
+
+                <img
+                    src="Foto/galeri3.jpeg"
+                    width="400"
+                    height="250"
+                    alt="Foto galeri ketiga"
+                    title="Gallery Foto 3"
+                >
+
+                <h3>Chapter 03</h3>
+
+                <p>
+                    A moment with meaning.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- AUDIO DAN VIDEO -->
+    <section class="multimedia" id="multimedia">
+
+        <div class="section-title">
+            <h2>Multimedia</h2>
+            <p>Audio dan video pada halaman portfolio</p>
+        </div>
+
+        <div class="media-container">
+
+
+            <!-- AUDIO -->
+            <div class="media-box">
+
+                <h3>🎵 Audio</h3>
+
+                <p>
+                    Silakan tekan tombol play untuk memutar audio.
+                </p>
+
+                <br>
+
+                <!-- Audio dengan kontrol play/pause -->
+                <audio controls>
+                    <source src="Audio/musik.mp3" type="audio/mpeg">
+
+                    Browser kamu tidak mendukung pemutar audio.
+                </audio>
+
+            </div>
+
+
+            <!-- VIDEO -->
+            <div class="media-box">
+
+                <h3>🎬 Video</h3>
+
+                <p>
+                    Silakan tekan tombol play untuk memutar video.
+                </p>
+
+                <br>
+
+                <!-- Video dengan kontrol play/pause -->
+                <video controls>
+
+                    <source src="Video/video.mp4" type="video/mp4">
+
+                    Browser kamu tidak mendukung pemutar video.
+
+                </video>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- KONTAK -->
+    <section class="contact">
+
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Informasi kontak</p>
+        </div>
+
+        <p>📧 Email: rahmatfebriansyah668@gmail.com</p>
+        <p>📱 Instagram: @rhmtfeb</p>
+        <p>📍 Indonesia</p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Rahmat Febriansyah. All Rights Reserved.
+        </p>
+
+        <p>
+            Teknik Informatika S1
+        </p>
+
+    </footer>
+
+</body>
+</html>
